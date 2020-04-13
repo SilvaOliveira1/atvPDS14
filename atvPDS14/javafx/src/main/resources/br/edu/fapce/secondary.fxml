@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="320.0" prefWidth="447.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.fapce.SecondaryController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de Usuarios">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Text>
+      <TableView prefHeight="200.0" prefWidth="421.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Codigo" />
+          <TableColumn prefWidth="75.0" text="Nome" />
+            <TableColumn prefWidth="75.0" text="CPF" />
+            <TableColumn maxWidth="1000.0" prefWidth="75.0" text="Mãe" />
+            <TableColumn prefWidth="105.0" text="Data Nascimento" />
+        </columns>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </TableView>
+   </children>
+</VBox>
